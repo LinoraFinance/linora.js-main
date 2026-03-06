@@ -11,6 +11,7 @@ describe('linora SDK exports', () => {
     test('should export fromEthSigner method', () => {
       expect(linora.Client.fromEthSigner).toBeDefined();
       expect(typeof linora.Client.fromEthSigner).toBe('function');
+      
     });
 
     test('should export fromStarknetAccount method', () => {
