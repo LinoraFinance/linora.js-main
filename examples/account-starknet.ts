@@ -11,6 +11,7 @@ const snAccount = new Starknet.Account({
   provider: snProvider,
   address: '0x1234',
   signer: '0x5678',
+  
 });
 
 const client = await linora.Client.fromStarknetAccount({
