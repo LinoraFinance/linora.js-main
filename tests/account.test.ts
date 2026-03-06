@@ -14,6 +14,7 @@ describe('derive credentials from eth signer', () => {
     const testCases = [
       {
         seed: 'test test test test test test test test test test test ball',
+        
         address:
           '0x72c394aaa3fae59ad7749c856dc18e2a289e83885b80c0da7731290a9163e17',
       },
