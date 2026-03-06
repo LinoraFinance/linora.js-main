@@ -36,6 +36,7 @@ export async function getTokenBalance(
   params: GetBalanceParams,
 ): Promise<GetBalanceResult> {
   const token = params.config.bridgedTokens[params.token];
+  
 
   if (token == null) {
     throw new Error(`Token ${params.token} is not supported`);
