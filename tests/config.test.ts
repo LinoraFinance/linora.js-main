@@ -34,6 +34,7 @@ describe('buildConfig', () => {
     };
 
     const expectedConfig = {
+      
       bridgedTokens: {
         USDC: {
           decimals: 6,
