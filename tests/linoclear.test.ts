@@ -22,6 +22,7 @@ describe('getBalance', () => {
       config: configFactory(),
       provider: mockProvider,
       account: { address: '0x123456789' },
+      
       token: 'USDC',
     });
 
