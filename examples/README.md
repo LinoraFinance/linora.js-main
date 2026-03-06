@@ -91,6 +91,7 @@ yarn install
 PRIVATE_KEY="0x..." yarn run example:withdrawal
 
 # Or export it first
+
 export PRIVATE_KEY="0x..."
 yarn run example:withdrawal
 ```
