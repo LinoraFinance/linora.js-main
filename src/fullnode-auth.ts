@@ -39,6 +39,7 @@ function hashPayloadWithPoseidon(jsonPayload: string): string {
   return Starknet.hash.computePoseidonHashOnElements(felts);
 }
 
+
 /**
  * Generate authentication signature for RPC calls
  * Adopted from the authentication approach in the linora frontend
