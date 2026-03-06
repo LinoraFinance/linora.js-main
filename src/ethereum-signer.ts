@@ -13,6 +13,7 @@ export interface TypedData {
       readonly name: string;
       readonly type: string;
     }>
+  
   >;
   readonly message: Record<string, unknown>;
 }
