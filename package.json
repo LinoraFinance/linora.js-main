@@ -53,6 +53,7 @@
     "ts-jest": "^29.4.5",
     "tsx": "^4.20.6",
     "typescript": "~5.9.3"
+    
   },
   "resolutions": {
     "brace-expansion": "^2.0.2",
