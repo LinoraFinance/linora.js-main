@@ -41,6 +41,7 @@ test('Argent v0.3.0', async () => {
   expect(seed).toBe('0x1');
 });
 
+
 test('Argent v0.3.1', async () => {
   const { accountSupport } = setup(
     '0x29927c8af6bccf3f6fda035981e765a7bdbf18a2dc0d630494f8758aa908e2b',
